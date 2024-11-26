@@ -23,14 +23,12 @@ const Projects = () => {
           name={"MOTT"}
           image={`/Images/mott_${number}.png`}
           desc={"Streaming application built for image optimization"}
-          tech={"React"}
           link={"https://movie-ott-ae3cc.web.app"}
         ></Card>
         <Card
           name={"Ezdeli"}
           image={`/Images/ezdeli_${number}.png`}
           desc={"Food Delivery app with theme control"}
-          tech={"React"}
           link={"https://ezdeli.web.app/"}
         ></Card>
       </div>

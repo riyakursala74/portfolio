@@ -19,7 +19,13 @@ const Body = () => {
   return (
     <div className="md:px-10 md:py-5">
       <div className="self-center flex md:px-48 m-auto py-10 md:flex-row flex-col justify-center">
-        <div className="md:w-96 md:h-96 h-80 w-[80%] border-2 border-amber-700 rounded-3xl items-center ml-10"></div>
+        <div>
+          <img
+            src="/Images/profile.jpg"
+            alt="Profile Picture"
+            className="md:w-96 md:h-96 h-80 w-[80%] border-2 border-amber-700 rounded-3xl items-center ml-10"
+          />
+        </div>
         <div className=" rounded-3xl">
           <div className="p-10 items-center m-auto">
             <h3 className="font-sans text-2xl md:ml-28 w-[80%]">
